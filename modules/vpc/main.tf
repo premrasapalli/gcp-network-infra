@@ -15,3 +15,4 @@ resource "google_compute_subnetwork" "subnets" {
   project                  = var.project_id
   private_ip_google_access = each.value.private_ip_google_access
 }
+
